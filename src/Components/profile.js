@@ -8,7 +8,7 @@ function Profile(){
     return(
         <header>
           <img src={profileImg} alt= 'profile' id='profile__img'/>
-          <h2 id='twitter'>__oluwasegun</h2>
+          <h2 id='twitter'>Oluwasegun</h2>
           <h2 id='slack'>oluwasegun31</h2>
 
           <div className='share'>
