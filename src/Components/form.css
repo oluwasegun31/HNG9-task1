@@ -11,7 +11,7 @@ section.form{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     margin: 100px 0;
     padding: 0 15px;
 }
@@ -69,7 +69,21 @@ textarea{
     padding: 10px 14px;
     border: 1px solid #D0D5DD;
     resize: none;
+    color: #101828;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
     outline: none;
+}
+textarea:focus{
+    border-radius: 8px;
+    outline: 1px solid #84CAFF;
+    box-shadow: 0  0 0 4px #D1E9FF, 0 1px 2px #1018280D;
+}
+textarea::placeholder{
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
 }
 .checkbox{
     display: flex;
@@ -95,6 +109,32 @@ textarea{
     height: 48px;
     font-size: 12px;
     font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.btn-contact:hover{
+    background: #175CD3;
+    transition: all 0.4s ease;
+}
+.btn-contact:focus{
+    box-shadow: 0  0 0 4px #D1E9FF, 0 1px 2px #1018280D;
+    transition: all 0.4s ease;
+}
+.error-b{
+    border: 1px solid #F89687;
+}
+.error-m{
+    font-size: 16px;
+    font-weight: 600;
+    color: #F83F23;
+    margin-top: 4px;
+}
+.error-b:focus{
+    outline: 1px solid #F89687;
+    box-shadow: 0 0 0 4px #FFD3CC, 0 1px 2px 0 #1018280D;
+}
+.check{
+    background: #fff;
 }
 
 @media screen and (max-width: 560px) {
