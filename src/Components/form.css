@@ -150,4 +150,7 @@ textarea::placeholder{
         justify-content: center;
         width: 100%;
     }
+    .checkbox span{
+        font-size: 14px;
+    }
 }
