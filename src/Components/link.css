@@ -11,7 +11,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.btn{
+.btn, .btn-2{
     border: 1px solid #EAECF0;
     border-radius: 8px;
     background: #EAECF0;
