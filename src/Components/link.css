@@ -29,6 +29,10 @@ a, #contact{
     color: #101828;
     font-size: 18px;
     font-weight: 500;
+    border: 0;
+    background: inherit;
+    cursor: pointer;
+    outline: none;
 }
 .social-links{
     margin: 20px;

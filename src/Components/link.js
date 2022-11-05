@@ -19,7 +19,7 @@ function Links(){
             
             <div className="btn">
             <Link  to='/contact'>
-                <span id="contact">Contact me</span>
+                <button id="contact">Contact me</button>
             </Link>
             </div>
             
