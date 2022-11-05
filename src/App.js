@@ -9,30 +9,29 @@ import Form from './Components/form';
 
 function App() {
   return (
-    <div>
-      <Routes>
-        <Route 
-          path='/'
-          element = {
-            <>
-              <Profile />
-              <Links />
-              <Footer />
-            </>
-          }
-        />
+    <Routes>
+      <Route 
+        path= "/"
+        element = {
+          <>
+            <Profile />
+            <Links />
+            <Footer />
+          </>
+        }
+      />
 
-        <Route
-          path='/contact'
-          element = {
-            <>
-              <Form />
-              <Footer/>
-            </>
-          }
-        />
-      </Routes>
-    </div>
+      <Route
+        path='/contact'
+        element = {
+          <>
+            <Form />
+            <Footer/>
+          </>
+        }
+      />
+    </Routes>
+
   );
 }
 

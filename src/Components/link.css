@@ -11,7 +11,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.btn, .btn-2{
+.btn{
     border: 1px solid #EAECF0;
     border-radius: 8px;
     background: #EAECF0;
@@ -23,7 +23,8 @@ main{
     margin-bottom: 24px;
     cursor: pointer;
 }
-a{
+
+a, #contact{
     text-decoration: none;
     color: #101828;
     font-size: 18px;
